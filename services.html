@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2016/01/03/11/24/gear-1119298_1280.png">
+    <style>
+        @font-face {
+            font-family: font;
+            src: url(SFPRODISPLAYREGULAR.OTF);
+        }
+        body{
+            background-color: rgb(243, 243, 243);
+        }
+        .services{
+            text-align: center;
+            margin-top: 5%;
+            font-family: font;
+        }
+        .services span{
+            color: red;
+        }
+        .services h1{
+            font-size: 50px;
+            margin-bottom: 0;
+        }
+        .services p{
+            padding: 0 300px;
+            line-height: 23px;
+        }
+        .service-container{
+            display: flex;
+            flex-direction: column;
+            font-family: font;
+            text-align: center;
+        }
+        .service-item{
+            margin: 60px 20%;
+            padding: 40px 33px;
+            border-radius: 25px;
+            background-image: url(mmm.png);
+            background-size: cover; 
+            position: relative;
+            z-index: 1;  
+        }
+        .service-item::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            border-radius: 25px;
+            opacity: .7;
+            z-index: -1;
+        }
+        .service-item h2{
+            text-align: center;
+            letter-spacing: 3px;
+            color: white;
+            font-size: 30px;
+        }
+        .service-item p{
+            letter-spacing: 1px;
+            color: rgb(221, 214, 216);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="services">
+        <h1>SERV<span>I</span>CES</h1>
+        <p>I specialize in providing a comprehensive range of services encompassing graphic design, web design, and digital marketing. </p>
+    </div>
+    <div class="service-container">
+        <div class="service-item">
+            <h2>Web Designing</h2>
+            <p> In the realm of web design, I excel at creating modern, user-friendly websites that not only showcase your products or services but also provide an immersive and intuitive browsing experience. </p>
+        </div>
+        <div class="service-item">
+            <h2>Graphic Designing</h2>
+            <p>With my expertise in graphic design, I bring creativity and visual appeal to every project, crafting captivating logos, stunning illustrations, and eye-catching marketing materials that effectively communicate your brand's identity. </p>
+        </div>
+        <div class="service-item">
+            <h2>Digital Marketing</h2>
+            <p>I offer strategic digital marketing solutions, utilizing channels such as search engine optimization (SEO), social media marketing, and content creation to enhance your online presence. </p>
+        </div>
+    </div>
+</body>
+</html>

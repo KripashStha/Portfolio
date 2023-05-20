@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Education</title>
+    <link rel="icon" href="https://w7.pngwing.com/pngs/643/465/png-transparent-graduation-ceremony-education-school-square-academic-cap-student-education-logo-purple-angle-furniture-thumbnail.png">
+    <script src="https://kit.fontawesome.com/4b2ce0df2d.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @font-face {
+            font-family: font;
+            src: url(SFPRODISPLAYREGULAR.OTF);
+        }
+        body{
+            font-family: font;
+            background-color: rgb(34, 33, 33);
+            height: 10vh;
+        }
+        .education-container{
+            background: rgb(252, 252, 253);
+            line-height: 60px;
+            width: 100%;
+        }
+        .education{
+            float: left;
+            width: 40%;
+            padding: 20px 150px;
+            display: flex;
+        }
+        .education h2{
+            line-height: 16px;
+            padding: 0 10px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            padding: 0 25px;
+            letter-spacing: 2px;
+        }
+        nav a:hover{
+            color: red;
+        }
+        .content{
+            background-image: url(school.png);
+            height: 70vh;
+            margin-top: 2px;
+            background-size: cover;
+            position: relative;
+            z-index: 1;
+        }
+        .content::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(162, 162, 165);
+            opacity: .4;
+            z-index: -1;
+
+        }
+        .content h1 {
+            text-align: center;
+            float: right;
+            padding: 0 100px;
+            padding: 130px;
+            padding-bottom: 0;
+            letter-spacing: 3px;
+            font-weight: 500px;
+        }
+        .content p{
+            text-align: center;
+            float: right;
+            padding: 14px 133px;
+            letter-spacing: 1px;
+        }
+        .content2{
+            background-color: rgb(245, 245, 247);
+            height: 40vh;
+            text-align: center;
+            margin-top: 2px;
+            padding-top: 30px;
+            letter-spacing: 3px;
+        }
+        .content2 p{
+            letter-spacing: 1px;
+            padding: 21px 180px;
+        }
+    </style>
+</head>
+<body>
+    <div class="education-container">
+        <div class="education">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h2>Education</h2>
+        </div>
+        <nav>
+            <a href="education.html">SCHOOL</a>
+            <a href="highschool.html">HIGHSCHOOL</a>
+            <a href="university.html">UNIVERSITY</a>
+        </nav>
+    </div>
+    <div class="content">
+        <h1>Gyankunj Higher Secondary School</h1>
+        <p>- Completed my school from gyankunj higher secondary<br>school located in Ravibhawan, Kathmandu</p>
+     </div>
+     <div class="content2">
+        <h2>Details</h2>
+        <p>I completed my school from Gyankunj Higher Secondary School. I finished my school with an excellent grade with the GPA of 3.70 in SEE. I  chose to study Computer Science from grade nine. </p>
+     </div>
+</body>
+</html>

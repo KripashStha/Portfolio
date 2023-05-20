@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="icon" href="https://w7.pngwing.com/pngs/376/939/png-transparent-computer-icons-scalable-graphics-contact-icon-cdr-text-black.png">
+    <script src="https://kit.fontawesome.com/4b2ce0df2d.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @font-face{
+            font-family: font;
+            src: url(SFPRODISPLAYREGULAR.OTF);
+        }
+        body{
+            font-family: font;
+            background-color: rgb(29, 28, 28);
+            height: 140vh;
+        }
+        .overall{
+            background-color: rgb(245, 245, 247);
+            margin-top: 2px;
+            height: 100vh;
+            line-height: 20px;
+        }
+        .cnt h2{
+            
+            padding: 50px 150px;
+            color: rgb(29, 29, 31);
+            font-size: 40px;
+        }
+        .cnt label{
+            padding: 0px 150px;
+            color: rgb(29, 29, 31);
+            font-size: large;
+            font-weight: 10;
+        }
+        .cnt input{
+            margin-left: 150px;
+            height: 30px;
+            width: 280px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 6px;
+            border-spacing: 0;
+            padding: 5px 7px;
+            border: 2px solid gray;
+        }
+        .cnt  button{
+            font-weight: 600;
+            margin-left: 150px;
+            background-color: white;
+            color: black;
+            border-radius: 50px;
+            box-shadow: none;
+            padding: 10px 30px;
+            border: 1px solid gray;
+        }
+        .cnt button:hover{
+            background-color: rgb(34, 33, 33);
+            color: white;
+        }
+        .cnt p{
+            color: rgb(29, 29, 31);
+            margin-left: 150px;
+            font-weight: 10;
+        }
+        .r{
+            display: flex;
+            flex-direction: row;
+            padding: 30px 0;
+        }
+        .r input{
+            margin-left: 150px;
+            width: 20px;
+            
+        }
+        .r label{
+            padding: 5px 7px;
+        }
+        .up{
+            
+            height: 50px;
+            background-color: rgb(252, 252, 253);
+            line-height: 45px;
+            width: 100%;
+            position: sticky;
+            top: 0px;
+        }
+        .up input{
+            padding: 2px 6px;
+        }
+        .head h2{
+            padding: 0 150px;
+            font-size: 20px;
+            width: 45%;
+            float: left;
+            line-height: 50px; 
+        }
+        .bottom{
+            text-align: left;
+            margin-top: 60px;
+            padding: 0 150px;
+            width: 50%;
+            
+        }
+        #p1{
+            font-weight: 600;
+
+        }
+        .icon{
+            color: rgb(252, 252, 253);
+            display: flex;           
+        }
+        .icon a{
+            color: rgb(252, 252, 253);
+            line-height: 43vh;
+        }
+        .fa-facebook{
+            padding: 0 10px;
+            
+        }
+        .fa-instagram{
+            padding: 0 10px;
+        }
+        .fa-twitter{
+            padding: 0 10px;
+        }
+        .fa-linkedin{
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="up">
+            <div class="head">
+                <h2>Contacts</h2>
+            </div>
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <label for="search">Search: </label>
+                <input type="text" placeholder="Search...">           
+        </div>
+        <div class="overall">
+            <div class="cnt">
+                <h2>Contact me for Work/General Enquiries.</h2>
+                <label for="name">Name:</label><br>
+                <input type="text" placeholder="Enter your Name"><br><br>
+                <label for="email">Your Email:</label><br>
+                <input type="text" placeholder="Enter your Email"><br><br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="text" placeholder="Enter your Phone number"><br><br>
+                <p>Your email and phone number will be secure.</p>
+                <div class="r">
+                    <input type="checkbox">
+                    <label for="pp">Agree to all the terms and conditions.</label>
+                </div><br>
+                <button>Submit</button>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="bottom">
+                <p id="p1">My Contacts</p><br>
+                <p id="p2">Phone no: 9840173699</p>
+                <p id="p3">Address: Kalanki, Kathmandu</p>
+                <p id="p4">Email: kripashshtha@gmail.com</p>
+            </div>
+        
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </form>
+</body>
+</html>
